@@ -10,6 +10,7 @@ import Combine
 
 struct VoiceAssistantView: View {
     @ObservedObject var viewModel: VoiceAssistantViewModel
+    @EnvironmentObject var details: UserDetails
     @Environment(\.modelContext)
     private var modelContext
  
