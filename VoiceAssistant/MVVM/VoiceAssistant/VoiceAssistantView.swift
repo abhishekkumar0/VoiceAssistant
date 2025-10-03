@@ -14,11 +14,12 @@ struct VoiceAssistantView: View {
     private var modelContext
  
     var body: some View {
-        NavigationStack {
+        VStack {
             contentView
                 .navigationDestination(isPresented: $viewModel.moveToJournalTimeline) {
                     JournalTimelineView()
                 }
+                .navigationBarBackButtonHidden()
         }
     }
 

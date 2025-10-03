@@ -12,7 +12,7 @@ import SwiftData
 struct VoiceAssistantApp: App {
     var body: some Scene {
         WindowGroup {
-            VoiceAssistantView(viewModel: VoiceAssistantViewModel())
+            AuthenticationView(viewModel: AuthenticationViewModel())
         }
         .modelContainer(for: RecordedEntry.self)
     }

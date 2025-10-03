@@ -13,4 +13,5 @@ struct Colors {
     static let dotColor = Color(red: 161/255, green: 161/255, blue: 170/255, opacity: 0.3)
     static let textColor = Color(red: 161/255, green: 161/255, blue: 170/255)
     static let backgroundColor = Color(red: 0.11, green: 0.11, blue: 0.11)
+    static let toastErrorColor = Color(red: 0.85, green: 0.18, blue: 0.18, opacity: 0.95)
 }
