@@ -16,5 +16,7 @@ final class JournalTimelineViewModel: ObservableObject {
 extension JournalTimelineViewModel {
     struct Strings {
         let title: String = "Journals"
+        let noRecordAvailable: String = "No Record Available"
+        let startRecording: String = "Start Recording"
     }
 }
